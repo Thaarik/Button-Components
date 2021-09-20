@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+.Container {
+  width: 1100px;
+  height: auto;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.Container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+.Container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Container .row > * {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 22.8%;
+          flex: 0 0 22.8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+  margin-bottom: 45px;
+}
+
+code {
+  font-size: 12px;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.material-icons {
+  color: #fff;
+}
+
+.button {
+  width: 88px;
+  height: 36px;
+  font-family: "Noto Sans", sans-serif;
+  background: #e0e0e0;
+  color: #3f3f3f;
+  -webkit-box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+          box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  cursor: pointer;
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button:focus, .button:hover {
+  background: #aeaeae;
+}
+
+.button:disabled {
+  background-color: #e0e0e0;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.icon {
+  width: 105px;
+  background-color: #3d5afe;
+  color: #fff;
+}
+
+.icon span {
+  font-size: 14px;
+}
+
+.outline {
+  background-color: #fff;
+  border: 1px solid #3d5afe;
+  color: #3d5afe;
+}
+
+.outline:hover, .outline:focus {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+  background-color: #fff;
+  border: 0;
+  color: #3d5afe;
+  -webkit-box-shadow: 0px 0px;
+          box-shadow: 0px 0px;
+}
+
+.text:hover, .text:focus {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+.text:disabled {
+  background-color: #fff;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.disableShadow {
+  background-color: #3d5afe;
+  -webkit-box-shadow: 0px 0px;
+          box-shadow: 0px 0px;
+  color: #fff;
+}
+
+.disableShadow:focus, .disableShadow:hover {
+  background-color: #3d5afe;
+}
+
+.sm {
+  width: 73px;
+  height: 32px;
+  background-color: #3d5afe;
+  color: #fff;
+}
+
+.md {
+  width: 81px;
+  height: 36px;
+  background-color: #3d5afe;
+  color: #fff;
+}
+
+.lg {
+  width: 93px;
+  height: 42px;
+  background-color: #3d5afe;
+  color: #fff;
+}
+
+.primary {
+  background: #2962FF;
+  -webkit-box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+          box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+  color: #fff;
+}
+
+.primary:focus, .primary:hover {
+  background: #0039CB;
+}
+
+.secondary {
+  background: #455A64;
+  -webkit-box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+          box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+  color: #fff;
+}
+
+.secondary:focus, .secondary:hover {
+  background: #1C313A;
+}
+
+.danger {
+  background: #D32F2F;
+  -webkit-box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+          box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+  color: #fff;
+}
+
+.danger:focus, .danger:hover {
+  background: #9A0007;
+}
+/*# sourceMappingURL=button.css.map */
