@@ -49,7 +49,7 @@ function ButtonComponents() {
         </div>
         <div>
           <code>{'<button  endIcon="local_grocery_store"/> '}</code>
-          <Button endIcon="local_grocery_store"/>
+          <Button endIcon="local_grocery_store" />
         </div>
       </div>
 
@@ -85,22 +85,6 @@ function ButtonComponents() {
           <code>{'<button color="danger" />'}</code>
           <Button color="danger" />
         </div>
-        {/* <div>
-          <code>{'<button color="default"/>'}</code>
-          <Button color="default" />
-        </div>
-        <div>
-          <code>{'<button color="primary" />'}</code>
-          <Button color="primary" />
-        </div>
-        <div>
-          <code>{'<button color="secondary" />'}</code>
-          <Button color="secondary" />
-        </div>
-        <div>
-          <code>{'<button color="danger" />'}</code>
-          <Button color="danger" />
-        </div> */}
       </div>
     </div>
   );

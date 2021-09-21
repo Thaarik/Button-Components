@@ -51,6 +51,10 @@ code {
     height:$height;
     background-color: $bgc1;
     color:#fff;
+    &:focus,
+    &:hover {
+      background-color: $bgc1;
+    }
 }
 .button {
   width: 88px;
@@ -83,6 +87,10 @@ code {
   color:#fff;
   span{
       font-size: 14px;
+  }
+  &:focus,
+  &:hover {
+    background-color: $bgc1;
   }
 }
 .outline {

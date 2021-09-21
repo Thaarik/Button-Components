@@ -107,6 +107,10 @@ code {
   font-size: 14px;
 }
 
+.icon:focus, .icon:hover {
+  background-color: #3d5afe;
+}
+
 .outline {
   background-color: #fff;
   border: 1px solid #3d5afe;
@@ -155,6 +159,10 @@ code {
   color: #fff;
 }
 
+.sm:focus, .sm:hover {
+  background-color: #3d5afe;
+}
+
 .md {
   width: 81px;
   height: 36px;
@@ -162,11 +170,19 @@ code {
   color: #fff;
 }
 
+.md:focus, .md:hover {
+  background-color: #3d5afe;
+}
+
 .lg {
   width: 93px;
   height: 42px;
   background-color: #3d5afe;
   color: #fff;
+}
+
+.lg:focus, .lg:hover {
+  background-color: #3d5afe;
 }
 
 .primary {
