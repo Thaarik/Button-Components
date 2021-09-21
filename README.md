@@ -37,14 +37,9 @@
 
 ## Overview
 
-![screenshot](https://www.github.com/Thaarik/Button-Components/src/Screenshot/Screenshot.png)
+![screenshot](https://github.com/Thaarik/Button-Components/blob/main/src/Screenshot/Screenshot.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 
@@ -78,5 +73,5 @@ $ npm start
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/Thaarik)
-- Twitter [@your-twitter](https://twitter.com/AhamedThaarik)
+- GitHub [github.com/Thaarik](https://github.com/Thaarik)
+- Twitter [@AhamedThaarik](https://twitter.com/AhamedThaarik)
